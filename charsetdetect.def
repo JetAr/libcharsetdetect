@@ -1,0 +1,5 @@
+LIBRARY charsetdetect
+EXPORTS
+	csd_open @ 1
+	csd_consider @ 2
+	csd_close @ 3
