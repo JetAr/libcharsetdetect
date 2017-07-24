@@ -134,12 +134,14 @@ The list of possible character sets that can be returned from the library as of 
     X-ISO-10646-UCS-4-2143
     X-ISO-10646-UCS-4-3412
     x-mac-cyrillic
-
+	
 We believe this list to be exhaustive. Future updates to the UCSD library may add more alternatives, but we will endeavour to keep
 this list current.
 
 Notice that you may get both capitalisations of `GB18030`. For this reason (and to be future-proof against any future behaviour
 like this for newly-added character sets) we recommend that you compare character set names case insensitively.
+
+## fix bug (Thai (TIS-620) )
 
 ## Licensing
 
@@ -150,7 +152,3 @@ The UCSD is (c) mozilla.org and tri-licensed under MPL 1.1/GPL 2.0/LGPL 2.1.
 We incorporate header files from the NSPR emulation library, which is LGPL licensed.
 
 Thus the resulting artifact is LGPL licensed (I think).
-
-## add support to language (Thai (TIS-620) )
-
-2014-05-28 (Y-M-D), [ BG57IV3 ]
